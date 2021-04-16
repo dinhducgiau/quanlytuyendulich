@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tour Du Lịch</title>
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	</head>
+	<body >
+		<table width="900" border="0" align="center" bgcolor="#FFEBCD" cellspacing="0">
+			<tr height="160" background="images/dulichbanner.jpg">
+				<td colspan="3" align="center" valign="top">			
+				</td>
+			</tr>
+			
+			<tr height="20" bgcolor="">			
+				<td >				
+				<a  href="index.html">Trang chủ</a> Liên hệ
+				</td>
+				<td colspan="2">
+					<marquee onmouseover="this.stop();" onmouseout="this.start();"
+				behavior"scroll" direction="left" scrollamount=3>
+					Công ty du lịch số 11 kính chào quý khách !
+			</marquee>		
+				</td>
+			</tr>
+			
+			<tr valign="top">
+				<!-- Cột trái -->
+				<td width="22%" bgcolor="#FFFFCC" >
+					<h3>Đặt tour Du lịch Online</h3>
+					
+					<ul>
+						<li><a>Tour chọn lọc <b>chất lượng nhất</b></a>	
+					    <li><a>Bảo đảm <b>giá tốt nhất</b></a>
+						<li><a>Đội ngũ <b>tư vẫn chi tiết và tận tình</b></a>
+						<li><a>Đặt tour <b>đơn giản, nhanh chóng</b></a>
+						<li><u>Có giấy phép lữ hành quốc tế, đảm bảo uy tín</u>
+						<li><a href="videoDL.html">Video <b>review</b> tour du lịch</a>						
+					</ul>
+					<h3>HỖ TRỢ KHÁCH HÀNG</h3>
+					<ul>
+						<li><a href="dattour.html">Đặt tour</a>
+						<li><a href="dangnhap.html">Đăng nhập</a>	
+						<li><a href="dangky.html" >Đăng ký</a>
+						<li><a href="gopy.html" >Góp ý</a>
+						<li><a>Liên hệ hotline: <b>0923965882</b></a>
+					</ul>
+						<h3>Giải trí</h3>
+					<ul>
+						<li><a>Xem bài</a>	
+						<li><a> Xem bói</a>
+						<li><a>Chơi game</a>
+					</ul>
+					
+				<br /><object with="400" height="300" data="flash/dongho.swf"></object>
+				</td>
+				
+				<!-- Cột giữa -->
+				<td width="56%">										
+					<table border="1" width="100%" >						
+						<tr align="center" >
+							
+							<tr height="60" bgcolor="#0033FF">
+							<th colspan = "2">
+							<font face="Time New Roman" size="5" color ="#FFFFFF">Đặt Tour</font>
+							</th>
+							</tr>
+							<tr>
+								<td width="200">Họ tên</td>
+								<td><input type = "text"></td>
+							</tr>
+							<tr>
+							<td>Ngày sinh</td>
+							<td>
+							<select name="cboNgay">
+							<option value="0">Ngày</option>
+							<script type="text/javascript">
+  							  for(var i=1;i<=31;i++)
+							{
+								document.write("<option value='"+i+ "'>"+ i +"</option>");
+
+							}
+							</script>
+							</select>
+
+							<select name="cboThang">
+							<option value="0">Tháng</option>
+							<script type="text/javascript">
+  							  for(var i=1;i<=12;i++)
+							{
+								document.write("<option value='"+i+ "'>"+ i +"</option>");
+
+							}
+							</script>
+							</select>
+							
+							<select name="ns">
+							<option>1995</option>
+							<option>1996</option>
+							<option selected="selected">1997</option>
+							<option>1998</option>
+							<option>1999</option>
+							</select>
+						</td>
+						
+							
+						</tr> 
+						<tr>
+						<td>Giới tính</td>
+							<td><input type="radio" name="gt" > Nam
+							<input type="radio" name="gt" checked = "checked"> Nữ</td>
+						</tr>
+						<tr>
+						<td width="200">CMND</td>
+						<td><input type = "text"></td>
+						</tr>
+						<td width="200">Số điện thoại</td>
+						<td><input type = "text"></td>
+						</tr>
+						<td width="200">Địa chỉ</td>
+						<td><input type = "text"></td>
+						</tr>
+						<tr>
+			            <td>Chọn tour</td>
+							<td><select name="nn">
+							<option selected="selected">Chọn</option>
+							<option>Cát Bà</option>
+							<option>Đà Lạt</option>
+							<option>Nha Trang</option>
+							<option>Hà Tiên</option>
+							</select>
+						</td>
+						</tr>
+												<tr>
+			            <td>Chọn giá</td>
+							<td><select name="nn">
+							<option selected="selected">Chọn</option>
+							<option>999.000 VND</option>
+							<option>1.999.000 VND</option>
+							<option>2.999.000 VND</option>
+							<option>3.999.000 VND</option>
+							</select>
+						</td>
+						</tr>
+						<tr>
+						<td>Dịch vụ</td>
+						
+							<td><input type="radio" name="hyt" > Nhà Nghỉ
+							
+								<input type="radio" name="hyt" > Khách Sạn
+								
+								<input type="radio" name="hyt" > Resort Pro Vip
+								
+								<input type="radio" name="hyt" > Villa
+
+								<input type="radio" name="hyt" checked = "checked">Khác</td>
+							
+						</tr>
+						<tr>
+						<td>Ghi chú</td>
+							<td> <textarea rows="4" cols="40"></textarea></td>
+						</tr>
+						<tr align="center" >
+							<td colspan="2"> 
+								<input type="submit" value="Đặt Tour" />
+							</td>
+						</tr>
+							</td>
+						</tr>
+						
+					</table>
+				</td>
+				
+				<!-- Cột phải -->
+				<td width="22%" align="center" bgcolor="#FFFFCC" >					
+					<img src="images/hoa8.jpg" id="h1" name="h1" />
+				</td>
+			</tr>
+			
+		</table>
+	</body>
+</html>
